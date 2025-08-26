@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+  display: flex;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.header-logo {
+  height: 26px;
+  padding: 10px 80px 10px;
+  margin: 0 auto;
+  width: 94px;
+}
+
+@media screen and (max-width: 627px) {
+  .header {
+    padding: 0;
+  }
+
+  .header-logo {
+    padding: 10px 20px 10px;
+    width: 70px;
+    height: 20px;
+  }
+}
