@@ -18,4 +18,4 @@ regardless of the device they are using.
 This webpage is deployed to github pages.
 
 - Deployment link
-- git@github.com:JaredGore238/se_project_spots.git
+- [git@github.com:JaredGore238/se_project_spots.git](https://jaredgore238.github.io/se_project_spots)
