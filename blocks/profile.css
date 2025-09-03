@@ -63,21 +63,15 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: rgba(33, 33, 33, 0.7);
+  color: rgba(33, 33, 33);
+  opacity: 0.7;
   background-color: #fcf5e5;
   gap: 8px;
 }
 
 .profile__edit-btn:hover {
-  color: rgba(33, 33, 33, 1);
-}
-
-.profile__edit-icon {
-  filter: opacity(0.7);
-}
-
-.profile__edit-icon:hover {
-  filter: opacity(1);
+  opacity: 1;
+  cursor: pointer;
 }
 
 .profile__add-btn {
@@ -101,7 +95,7 @@
 }
 
 .profile__add-btn:hover {
-  background-color: rgba(33, 33, 33, 0.8);
+  opacity: 1;
   cursor: pointer;
 }
 
@@ -124,7 +118,6 @@
   .profile__name {
     font-size: 20px;
     margin: 12px 0 6px;
-    min-height: 20px;
     max-width: 288px;
   }
 
@@ -132,7 +125,6 @@
     font-size: 16px;
     margin: auto 0;
     padding: 0 0 32px;
-    min-height: 16px;
     max-width: 288px;
   }
 
