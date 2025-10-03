@@ -10,9 +10,13 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s linear, visibility 0.3s linear;
 }
 
-.modal_is-opened {
+.modal_opened {
+  opacity: 1;
   visibility: visible;
 }
 
@@ -121,10 +125,6 @@
 
   .modal__label {
     margin: 0 0 24px;
-    font-size: 16px;
-  }
-
-  .modal__input {
     font-size: 16px;
   }
 
