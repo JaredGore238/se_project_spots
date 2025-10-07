@@ -49,8 +49,6 @@ function handleProfileSubmit(evt) {
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
-  const editCardNameInput = newPostForm.querySelector("#caption-description-input");
-  const editCardLinkInput = newPostForm.querySelector("#card-image-input");
   console.log(editCardNameInput.value, editCardLinkInput.value);
   newPostModal.classList.remove("modal_opened");
 }
