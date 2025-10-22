@@ -22,6 +22,6 @@
   }
 }
 
-.cards__list :last-child {
+.cards__list > .card:last-child {
   padding: 0;
 }

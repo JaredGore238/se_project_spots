@@ -1,6 +1,7 @@
 .card {
   max-width: 413px;
   position: relative;
+  cursor: pointer;
 }
 
 .card__image {

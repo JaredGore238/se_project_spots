@@ -86,7 +86,6 @@ function getCardElement(data) {
   );
   cardDeleteButtonElement.addEventListener("click", () => {
     cardElement.remove();
-    cardElement = null;
   });
 
   cardImageElement.addEventListener("click", () => {
