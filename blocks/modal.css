@@ -48,6 +48,18 @@
   cursor: pointer;
 }
 
+.modal__close-btn_type_form {
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal__close-btn-image-type_preview {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__close-btn-image-type_input {
+ background-color: rgba(0, 0, 0, 0.5);
+}
 .modal__close-btn:hover {
   opacity: 1;
   cursor: pointer;
